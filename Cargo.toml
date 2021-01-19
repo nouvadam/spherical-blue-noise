@@ -1,0 +1,20 @@
+[package]
+name = "spherical_blue_noise"
+description = "Blue noise generator on a sphere."
+keywords = ["blue", "noise", "sphere", "random", "distribution"]
+category = [ "algorithms" ]
+repository = "https://github.com/nouvadam/spherical-blue-noise/"
+readme = "README.md"
+version = "0.1.1"
+authors = ["nouvadam"]
+license = "MIT"
+edition = "2018"
+
+[dependencies]
+glam = "0.11.3"
+rand = "0.8.2"
+rand_distr = "0.4.0"
+rayon = "1.5.0"
+
+[dev-dependencies]
+plotters = "^0.3.0"
